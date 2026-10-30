@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Pages — Privacy Policy & Terms | Kolstø Development</title>
+  <meta name="description" content="Official Privacy Policy, Account Deletion instructions, and Terms of Service for the First Pages mobile application.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0B0F17;
+      color: #CBD5E1;
+    }
+  </style>
+</head>
+<body class="bg-[#0B0F17] text-slate-300 antialiased selection:bg-[#8A9A92] selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="border-b border-[#1E293B]/80 sticky top-0 bg-[#0B0F17]/90 backdrop-blur z-50">
+    <div class="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="index.html" class="text-sm tracking-widest font-semibold text-white uppercase hover:text-slate-300 transition">
+        ← Kolstø <span class="text-[#8A9A92]">Development</span>
+      </a>
+      <div class="flex items-center gap-4 text-xs text-slate-400">
+        <a href="#delete-account" class="hover:text-white transition">Account Deletion</a>
+        <a href="#terms" class="hover:text-white transition">Terms</a>
+        <a href="index.html#support" class="hover:text-white transition">Support</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Legal Main Content -->
+  <main class="max-w-4xl mx-auto px-6 py-16 space-y-12">
+    <div class="space-y-4 border-b border-slate-800 pb-8">
+      <span class="text-xs font-semibold tracking-wider text-[#8A9A92] uppercase">Application Legal Documentation</span>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">First Pages — Privacy Policy & Terms of Service</h1>
+      <p class="text-sm text-slate-400">Effective Date: October 30, 2026 • Operated by Kolstø Development (Org. no. 938 611 130).</p>
+    </div>
+
+    <!-- 1. Foundational Commitment -->
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-white">1. Our Core Privacy Commitment</h2>
+      <p class="text-sm leading-relaxed text-slate-300">
+        Kolstø Development ("we", "us", "our") is the developer and operator of the <strong>First Pages</strong> mobile application. We recognize that early childhood memories, photographs, and family notes represent deeply private personal data. First Pages is fundamentally built on the principle that <strong>parents and legal guardians retain 100% ownership of all their data</strong>.
+      </p>
+      <p class="text-sm leading-relaxed text-slate-300">
+        We do not sell, rent, license, or monetize your personal information or media. We do not integrate third-party advertising SDKs, data brokers, or behavioral tracking networks.
+      </p>
+    </section>
+
+    <!-- 2. COPPA & GDPR Compliance -->
+    <section class="space-y-3 p-6 rounded-xl border border-[#222F44] bg-[#151C28]">
+      <h2 class="text-lg font-semibold text-white flex items-center gap-2">
+        <span class="text-[#8A9A92]">●</span> 2. Children's Privacy (COPPA & GDPR Compliance)
+      </h2>
+      <p class="text-sm leading-relaxed text-slate-300">
+        First Pages is an organizational parenting application <strong>directed strictly to parents, legal guardians, and adult caregivers (aged 18 and older)</strong>. The application is neither designed for nor targeted at children under the age of 13 (or under 16 within the European Economic Area).
+      </p>
+      <p class="text-sm leading-relaxed text-slate-300">
+        We never knowingly solicit or collect personal information directly from children. Any information concerning a child—such as a first name, birth date, milestone entries, and photographs—is entered exclusively by the child's parent or verified legal guardian under affirmative parental consent.
+      </p>
+    </section>
+
+    <!-- 3. Information Collected -->
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-white">3. Information We Collect and Process</h2>
+      <ul class="list-disc list-inside space-y-2 text-sm text-slate-300">
+        <li><strong>Account Identifiers:</strong> Your email address, display name, and authentication credentials (via Email/Password, Magic Link, Sign in with Apple, or Google Sign-In) required to authenticate your account and sync your books across authorized devices.</li>
+        <li><strong>User-Generated Media & Journal Data:</strong> Photographs, milestone dates, journal notes, custom cover texts, and your child's name and birth date, stored exclusively to render and export your memory book. When selecting a photo, the app reads the capture date (EXIF DateTime) locally on your device to suggest a milestone date; GPS location metadata is never extracted or stored on our servers.</li>
+        <li><strong>Co-Parent Collaboration:</strong> Temporary 7-day invite codes and basic member identifiers (display name and email) when you voluntarily invite a partner or family member to co-edit a book.</li>
+        <li><strong>Purchase Verification Records:</strong> When you unlock a book via Apple App Store or Google Play, we validate the store transaction token and store an encrypted receipt identifier to maintain your book's unlock status. We never receive or process your credit card or payment details.</li>
+      </ul>
+    </section>
+
+    <!-- 4. Data Processors & Infrastructure -->
+    <section class="space-y-3">
+      <h2 class="text-xl font-semibold text-white">4. Data Storage, Security & Sub-Processors</h2>
+      <p class="text-sm leading-relaxed text-slate-300">
+        All network transit between the mobile application and our infrastructure is enforced via encrypted HTTPS/TLS connections. Uploaded photographs are stored in private, access-controlled cloud buckets accessible only to authorized members of your book via time-limited signed URLs:
+      </p>
+      <ul class="list-disc list-inside space-y-2 text-sm text-slate-300">
+        <li><strong>Supabase Inc. (PostgreSQL Database, Authentication & Object Storage):</strong> Provides isolated relational database storage, row-level security (RLS), and encrypted media storage under GDPR-compliant Data Processing Agreements (DPA).</li>
+        <li><strong>Apple Inc. & Google LLC:</strong> Provide optional OAuth sign-in (Sign in with Apple / Google Sign-In) and native In-App Purchase billing verification.</li>
+      </ul>
+    </section>
+
+    <!-- 5. Rights & Account Deletion -->
+    <section id="delete-account" class="space-y-3 p-6 rounded-xl border border-[#222F44] bg-[#151C28]/60">
+      <h2 class="text-xl font-semibold text-white">5. Your Legal Rights & Complete Account Deletion</h2>
+      <p class="text-sm leading-relaxed text-slate-300">
+        Under the General Data Protection Regulation (GDPR) and applicable privacy laws, you hold the right to access, rectify, export, or permanently erase your personal data ("Right to be Forgotten").
+      </p>
+      <p class="text-sm leading-relaxed text-slate-300">
+        <strong>How to permanently delete your account in the app:</strong> Open the First Pages mobile application, navigate to the <em>Profile</em> tab → scroll down to <em>Settings</em> → tap <em>Delete Account</em>, and type <code>DELETE</code> to confirm.
+      </p>
+      <p class="text-sm leading-relaxed text-slate-300">
+        <strong>What happens when you delete your account:</strong> Executing this action immediately and irreversibly deletes your user account, authentication record, and all solely-owned books, milestone notes, and photographs from our database and cloud storage buckets. If you are a member of a shared book with a co-parent, your membership is removed and book ownership is transferred to the remaining co-parent so their shared family keepsake is not lost. Anonymized store transaction IDs are unlinked from your user ID.
+      </p>
+      <p class="text-sm leading-relaxed text-slate-300">
+        <strong>Request deletion via web/email:</strong> If you have uninstalled the app and wish to request account or data deletion without logging in, email <a href="mailto:contact@kolstodevelopment.com" class="text-[#8A9A92] underline">contact@kolstodevelopment.com</a> from your registered email address. Requests are processed within 48 hours.
+      </p>
+    </section>
+
+    <!-- 6. Terms of Service -->
+    <section id="terms" class="space-y-3 border-t border-slate-800 pt-8">
+      <h2 class="text-xl font-semibold text-white">6. Terms of Service</h2>
+      <p class="text-sm leading-relaxed text-slate-300">
+        By creating an account or utilizing First Pages, you agree to these operating terms:
+      </p>
+      <ul class="list-disc list-inside space-y-2 text-sm text-slate-300">
+        <li><strong>Intellectual Property:</strong> You retain complete, unrestricted copyright over all images and reflections you upload. You warrant that you hold legitimate custody or parental consent to upload the media.</li>
+        <li><strong>One-Time Book Unlock & Finalization:</strong> Creating a draft book is free (up to 2 active unpaid drafts per account). Unlocking a book for co-parent sharing and print-ready PDF export is a one-time in-app purchase per book processed by Apple App Store or Google Play. Finalizing or exporting a book locks the purchase credit to that book and activates a 48-hour proofing window before memories are permanently archived.</li>
+        <li><strong>Acceptable Conduct:</strong> You agree not to upload abusive, unlawful, or infringing content. Accounts violating safety and legal standards will be terminated immediately.</li>
+        <li><strong>Limitation of Liability:</strong> First Pages is provided on an "as is" and "as available" basis. While we maintain rigorous security and backups, Kolstø Development shall not be held liable for accidental service interruptions or localized hardware failures. We encourage users to export and back up digital PDF copies of their milestone book.</li>
+      </ul>
+    </section>
+
+    <!-- 7. Data Controller -->
+    <section class="space-y-3 border-t border-slate-800 pt-8">
+      <h2 class="text-xl font-semibold text-white">7. Data Controller & Inquiries</h2>
+      <p class="text-sm text-slate-300 leading-relaxed">
+        The designated Data Controller responsible for processing your personal information is:<br>
+        <strong>Kolstø Development</strong><br>
+        Enterprise Entity: Enkeltpersonforetak (Norwegian Sole Proprietorship)<br>
+        Organization Number: 938 611 130<br>
+        Location: Tønsberg, Norway<br>
+        Direct Contact: <a href="mailto:contact@kolstodevelopment.com" class="text-[#8A9A92] underline">contact@kolstodevelopment.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="py-8 px-6 border-t border-slate-800 text-center text-xs text-slate-500">
+    © 2026 Kolstø Development (Org. no. 938 611 130). All rights reserved.
+  </footer>
+
+</body>
+</html>
