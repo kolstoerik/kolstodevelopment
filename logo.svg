@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <defs>
+    <clipPath id="ring-clip">
+      <circle cx="100" cy="100" r="71.5" />
+    </clipPath>
+  </defs>
+
+  <!-- Ytre sirkel -->
+  <circle cx="100" cy="100" r="75" stroke="#C7B19F" stroke-width="10.5" />
+
+  <!-- K-monogram tilpasset innsiden av sirkelen -->
+  <path clip-path="url(#ring-clip)" fill="#C7B19F" d="M 51 45
+       C 51 41, 63 40, 67 47
+       L 74 87
+       L 128 39
+       C 134 34, 150 46, 145 53
+       L 90 101
+       L 151 145
+       C 156 149, 141 166, 134 162
+       L 76 113
+       L 77 148
+       C 77 156, 65 161, 56 158
+       L 51 153
+       Z" />
+</svg>
